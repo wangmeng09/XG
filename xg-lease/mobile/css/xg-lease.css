@@ -1,5 +1,5 @@
 html,body{width: 100%;}
-body{font-family: '微软雅黑';background-color: #F2F2F2;font-size: .8rem!important;}
+body{font-family: '微软雅黑';background-color: #F2F2F2;font-size: .85rem!important;}
 body,ul,li{padding: 0;margin: 0;}
 ul,li{list-style: none;}
 .font16{font-size: 1.6rem;}
@@ -22,7 +22,13 @@ ul,li{list-style: none;}
 }
 /*common*/
 .header{
-    min-height:.8rem;
+    min-height: .8rem;
+    margin-bottom: -1px!important;
+    padding: .8rem;
+    color: #fff;
+}
+.header>span{
+    font-size: 1rem;
 }
 .home .home-bottom{
     bottom:0;
@@ -31,5 +37,4 @@ ul,li{list-style: none;}
     border:0;
     padding: 0;
 }
-
 
