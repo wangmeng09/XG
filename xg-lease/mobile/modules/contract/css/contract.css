@@ -1,12 +1,14 @@
 /*合同列表*/
 body,p,div,ul,li{margin:0 0;padding:0 0;}
 ul,li{list-style: none;}
-html{background-color: #F2F2F2;}
+a{color:#212529; }
 
 .fr{float:right;}
 .fl{float:left;}
 .font-red{color:#DD514C;}
 .font-blue{color:#0e90d2;}
+.borderBGary{border-bottom:1px solid #e5e5e5}
+.h31{height: 2.8rem;    line-height: 2.8rem;}
 /*列表*/
 .contractList{}
 /*搜索*/
@@ -35,30 +37,52 @@ html{background-color: #F2F2F2;}
 .contractList .contractList-input::-webkit-input-placeholder{
     color: #fff;
 }
-.contractList .companyBox{
+.contractList .companyBox,.contractList .tab{
     border-bottom: 1px solid #e5e5e5;
 }
+.contractList .nav-link{color:#212529;text-align: center;    padding: .25rem 1rem; }
+.contractList .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #2d83ce;
+    background: transparent;
+    border-bottom: 2px solid #2d83ce;
+    border-radius: 0;
+}
 .contractList .contractList_list{}
-.contractList .contractList_list>li{background-color:#fff;margin:10px 0;}
+.contractList .contractList_list>li{
+    background-color: #fff;
+    padding: 0;
+    margin: .5rem 0;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+.contractList .del-content>div{
+    line-height: 1.6rem;
+    color: #999;
+}
+.contractList .mon-content{
+    /*color: #999;*/
+    border-top: 1px solid #e5e5e5;
+}
+.contractList .myorderID .icon-fanhui{  transform: rotate(-180deg);  -webkit-transform: rotate(-180deg);}
 .contractList .listTop ul{padding:20px 20px;color:#a6a6a6;}
 .contractList .listTop li{overflow: hidden;}
 .contractList .listTotall{height:4rem;padding-right:20px;margin:10px 0;}
-.contractList .listTotall_price{height:3.1rem;line-height:3.1rem;font-size:1.4rem;text-align: right;border-top: 1px solid #dbdbdb;padding-right:20px;}
+.contractList .listTotall_price{height:3.1rem;line-height:3.1rem;text-align: right;border-top: 1px solid #dbdbdb;padding-right:20px;}
 
 
 
 /*详情*/
-.contractDetail{height: 100vh;overflow: hidden;}
+.contractDetail{overflow: hidden;}
 .contractDetail .contractNum{width:100%;height:3.6rem;line-height:3.6rem;overflow:hidden;}
 .contractDetail .contractNum_name{display:inline-block;width:100px;height:2.1rem;line-height:2.1rem;background-color:#fbaf16;color:#fff;border-radius: 13px;text-align: right;position:relative;left:-10px;padding-right:14px;}
+.contractDetail .listMoney{height:2.8rem;line-height:2.8rem;}
+.contractDetail .contractTitle{color:#000;line-height:2.8rem;}
 
-.contractDetail .contractTitle{width:100%;height:3.1rem;line-height:3.1rem;background-color:#f2f2f2;color:#000;padding-left:20px;}
-
-.contractDetail .listTop{padding:20px 20px;font-size:1.1rem;color:#a6a6a6;border-bottom: 1px solid #dbdbdb;}
+.contractDetail .listTop{color:#a6a6a6;border-bottom: 1px solid #dbdbdb;}
 .contractDetail .listTop li{overflow: hidden;}
-.contractDetail .listTotall{height:4rem;padding-right:20px;margin:10px 0;}
+.contractDetail .listTotall{height:4rem;padding-right:1rem;line-height: 4rem;}
 .contractDetail .listTotall p{text-align: right;}
-.contractDetail .listTotall_price{font-size:1.4rem;margin-bottom:10px;}
+.contractDetail .listTotall_price{font-size:1rem;margin-bottom:10px;}
 .contractDetail .listTotall_time{font-size:1rem;color:#9f9f9f;}
 .contractDetail .listbottom{padding:20px 20px 0 20px;}
 .contractDetail .listbottom_title{width:100%;overflow: hidden;background-color: #f6f6f6;}
@@ -66,5 +90,23 @@ html{background-color: #F2F2F2;}
 .contractDetail .listbottom_content{width:100%;}
 .contractDetail .listbottom_content li{width:100%;height:3.5rem;line-height:3.5rem;color:#818181;overflow: hidden;border-bottom: 1px solid #dbdbdb;}
 .contractDetail .listbottom_content li span{display:inline-block;width:25%;float:left;text-align:center;}
+
+.repayList .repayNum{width:100%;height:3.6rem;line-height:3.6rem;overflow:hidden;}
+.repayList .repayNum_name{display:inline-block;width:100px;height:2.1rem;line-height:2.1rem;background-color:#fbaf16;color:#fff;border-radius: 13px;text-align: right;position:relative;left:-10px;padding-right:14px;}
+
+.repayList .repayTitle{width:100%;height:3.1rem;line-height:3.1rem;background-color:#f2f2f2;color:#000;padding-left:20px;}
+.repayList .repayTitle span{color: #818181;}
+.repayList .listTop{width:100%;padding:1rem;color:#818181;border-bottom: 1px solid #dbdbdb;}
+.repayList .listTop li{overflow: hidden;margin-bottom: .5rem;}
+.repayList .listTotall{height:2.8rem;line-height:2.8rem;padding-right:1rem;background-color: #fff;}
+.repayList .listTotall p{text-align: right;}
+.repayList .listTotall_price{font-size:1rem;}
+.repayList .listTotall_time{font-size:1rem;color:#9f9f9f;}
+.repayList .listbottom{padding:1rem 1rem 0 1rem;}
+.repayList .listbottom_title{width:100%;overflow: hidden;background-color: #f6f6f6;}
+.repayList .listbottom_title li{float:left;width:25%;height:3rem;text-align: center;line-height: 3rem;}
+.repayList .listbottom_content{width:100%;}
+.repayList .listbottom_content li{width:100%;height:3.5rem;line-height:3.5rem;color:#818181;overflow: hidden;border-bottom: 1px solid #dbdbdb;}
+.repayList .listbottom_content li span{display:inline-block;width:25%;float:left;text-align:center;}
 
 
