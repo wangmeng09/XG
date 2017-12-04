@@ -38,4 +38,9 @@ a{text-decoration: none;}
     border:0;
     padding: 0;
 }
-
+.back-white{
+    background: #fff!important;
+}
+.text-center{
+    text-align: center;
+}
