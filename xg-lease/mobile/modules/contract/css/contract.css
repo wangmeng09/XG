@@ -18,12 +18,25 @@ html{background-color: #F2F2F2;}
     height: 30px;
     background: #0e69b8;
 }
+.contractList .contractList-search .icon-sou{
+    font-size: 1.4rem;
+}
+.contractList .contractList-search .icon-guanbi1{
+    font-size: 1.2rem;
+    color: #95bddf;
+}
 .contractList .contractList-input{
-    width: 100%;
+    width: 92%;
     height: 30px;
     background: transparent;
     border: none;
     outline: none;
+}
+.contractList .contractList-input::-webkit-input-placeholder{
+    color: #fff;
+}
+.contractList .companyBox{
+    border-bottom: 1px solid #e5e5e5;
 }
 .contractList .contractList_list{}
 .contractList .contractList_list>li{background-color:#fff;margin:10px 0;}
