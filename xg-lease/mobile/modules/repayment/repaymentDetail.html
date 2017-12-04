@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../../vendor/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/blue.css">
+    <link rel="stylesheet" href="../../css/xg-lease.css">
+    <link rel="stylesheet" href="css/repayment.css">
+</head>
+<body>
+<div class="header px-3 mb-2 bg-primary text-white text-center skin-back">
+    <a href="../index.html" class="float-left"><i class="iconfont icon-fanhui text-white"></i></a>
+    <span >我要还款</span>
+</div>
+
+<div class="repaymentBox">
+    <h4>当前应还金额 <span>6025.03</span> 元</h4>
+    <form name="moneyForm" novalidate>
+        <div class="inputBox">
+            <p>还款金额</p>
+            <div >
+                <span>￥</span>
+                <input type="text" placeholder="0.00" name="money" ng-model="money" required>
+            </div>
+        </div>
+    </form>
+    <form class="noteForm">
+        <div class="inputBox">
+            <p>还款用途</p>
+            <textarea placeholder="还款用途 (50字以内)" maxlength="50" ng-model="note"></textarea>
+        </div>
+    </form>
+    <div class="buttonBox">
+        <div class="button" ng-disabled="moneyForm.$invalid" ng-click="repayment()">确认还款</div>
+    </div>
+</div>
+
+<script src="../../../vendor/jquery/jquery.min.js"></script>
+<script src="../../../vendor/bootstrap/js/popper.min.js"></script>
+<script src="../../../vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
