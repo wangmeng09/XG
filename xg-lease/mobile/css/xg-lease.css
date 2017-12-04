@@ -1,0 +1,33 @@
+html,body{width: 100%;}
+body{font-family: '微软雅黑';background-color: #F2F2F2;font-size: .8rem!important;}
+body,ul,li{padding: 0;margin: 0;}
+ul,li{list-style: none;}
+.font16{font-size: 1.6rem;}
+.login{height: 100vh;}
+.login .logo{padding: 10vh 0;}
+.login .loginBox{margin:6% auto; }
+.loginBox .color-gary {color: #999;  }
+.login .loginBox .input-group-addon,.login .loginBox .form-control{
+    background-color: #fff;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+.login .copyBox{
+    width: 100%;
+    text-align: center;
+    bottom: 2rem;
+    font-size: .2rem;
+}
+/*common*/
+.header{
+    min-height:.8rem;
+}
+.home .home-bottom{
+    bottom:0;
+}
+.home .list-group-item{
+    border:0;
+    padding: 0;
+}
+
+
