@@ -1,0 +1,87 @@
+/*tabbar*/
+.navTab {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.navTab>li{
+    float: left;
+    margin-bottom: -1px;
+    width: 50%;
+}
+.navTab>li>div{
+    padding: .5em 0;
+    text-align: center;
+}
+.titleDiv{
+    padding: .8rem;
+}
+.navTab .tab-active {
+    border: none;
+    border-bottom: 2px solid #2d83ce;
+    background-color: #fff;
+    color: #2d83ce;
+}
+.navTab>li:nth-of-type(2n+1) {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.repaymentDetail .back-gary{
+    background-color: #f2f2f2;
+}
+.repaymentDetail .text-gary{
+    color: #818181;
+}
+.repaymentDetail .text-red{
+    color:#fb3b4e;
+}
+.repaymentDetail .hl40{
+    height: 40px;
+    line-height: 40px;
+}
+.repaymentDetail .note{
+    border-radius: 5px;
+    border:1px solid #dfdfdf;
+    background-color: #fff;
+    min-height: 50px;
+    padding: .4rem  1rem;
+}
+.repaymentDetail .repaymentList-box{
+    width: 100%;
+}
+.repaymentDetail .repaymentList-box li{
+    border-width: 0 0 1px 0;
+    font-size: 1.1rem;
+    padding: .8rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-color: #dedede;
+    border-style: solid;
+    margin-top: .8rem;
+}
+.repaymentDetail .repaymentDetail-box li:first-child{
+    margin-top: 0;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding: 0!important;
+}
+.repaymentDetail .repaymentList-box li>div{
+    font-size: .8rem;
+}
+.paddingDefault{
+    padding: .8rem;
+}
+.paddingDefault-bottom{
+    padding-bottom: .8rem!important;
+}
