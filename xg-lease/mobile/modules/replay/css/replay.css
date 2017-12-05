@@ -1,4 +1,29 @@
 /*tabbar*/
+.repaymentDetail .contractList-search{
+    width: 100%;
+    border-radius: .5rem;
+    position: relative;
+    z-index: 1000;
+    height: 30px;
+    background: #0e69b8;
+}
+.repaymentDetail .contractList-search .icon-sou{
+    font-size: 1.4rem;
+}
+.repaymentDetail .contractList-search .icon-guanbi1{
+    font-size: 1.2rem;
+    color: #95bddf;
+}
+.repaymentDetail .contractList-input{
+    width: 92%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.repaymentDetail .contractList-input::-webkit-input-placeholder{
+    color: #fff;
+}
 .navTab {
     border-bottom: 1px solid #ddd;
     overflow: hidden;

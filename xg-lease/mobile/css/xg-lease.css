@@ -2,7 +2,7 @@ html,body{width: 100%;}
 body{font-family: '微软雅黑';background-color: #F2F2F2;font-size: .8rem!important;}
 body,ul,li{padding: 0;margin: 0;}
 ul,li{list-style: none;}
-a{text-decoration: none;}
+a{text-decoration: none!important;}
 .font16{font-size: 1.6rem;}
 .skin-back{background-color: #2d83ce!important;}
 .skin-color{color: #2d83ce!important;}
